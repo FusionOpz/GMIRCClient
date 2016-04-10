@@ -16,7 +16,9 @@ Pod::Spec.new do |s|
   s.author           = { "Giuseppe Morana aka Eugenio" => "giuseppe.morana.79@gmail.com" }
   s.source           = { :git => "https://github.com/eugenio79/GMIRCClient.git" }
 
-  s.platform     = :ios, '8.0'
+  #s.platform     = :ios, '8.0'
+  #s.ios.deployment_target = '8.0'
+  #s.osx.deployment_target = '10.9'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
